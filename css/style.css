@@ -1,0 +1,291 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-heght: 1.7em;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+	
+}
+.header{
+	widows: 100%;
+	background: #F0FFF0;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	margin: 0px 10px 0px  25px;
+	font-size: 16px;
+	font-weight: 1.7em;
+	text-transform: capitalize;
+	font-weight: 500;
+	transition: .8s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #21B573;
+}
+
+.header .nav-item .btn-success{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 8px 20px;
+	background:#21B573;
+	border-radius: 20px;
+	border: 1px solid #21B573;
+	transition: .8s;
+}
+
+.header .nav-item .btn-success:hover{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+}
+
+.header .nav-item .btn-success:focus{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner h4{
+	font-size: 14px;
+	color: #FD511A;
+	font-weight: 600;
+	margin: 40px 0px 0px;
+}
+.banner h1{
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 1.4em; 
+		color: #000;
+}
+.banner h1 span{
+		color:#21B573;
+}
+.banner p{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.7em;
+
+}
+.banner .btn-success{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	font-weight: 500;
+	padding: 10px 30px;
+	margin:	20px 0px 0px 0px;
+	color: #fff;
+	background: #21B573;
+	border-radius: 20px;
+	border: 1px solid #000;
+	transition: .8s;
+}
+.banner .btn-success:hover{
+
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+	
+}
+.banner .btn-success:focus{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;	
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+	margin: -30px 0px -40px 0px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 40px;
+	border-radius: 10px;
+	background: #F8FFFB;
+	text-align: center;
+}
+.inner-feature img{
+	width: 66px;
+	height: 85px;
+
+}
+.inner-feature h4{
+	font-size: 20px;
+	color: #413960;
+	font-weight: 600;
+	margin: 10px 0px 0px;
+}
+.inner-feature p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+}
+.inner-feature:hover{
+	background: transparent;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);;
+}	
+.Online-courses{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.Online-courses h1{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #413960;
+	margin: 0px 0px 80px;
+}
+.Online-courses .card{
+	padding: 20px;
+	border: 0px;
+	background: #fff;
+	box-shadow:  0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.Online-courses .card .card-body{
+	padding: 10px 0px 0px;
+}
+.Online-courses .card .card-body .card-title{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #413960;
+}
+.Online-courses .card .card-body .card-text{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color:	#585859;
+}
+.Online-courses .card .card-body .btn-success{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	font-weight: 500;
+	padding: 10px 30px;
+	margin:	20px 0px 40px 0px;
+	color: #fff;
+	background: #21B573;
+	border-radius: 20px;
+	transition: .8s;
+}
+.Online-courses .card .card-body .btn-success:hover{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+	
+}
+.Online-courses .card .card-body .btn-success:focus{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;	
+}
+.Online-courses .card .card-body .info{
+	font-size: 16px;
+	line-height:1.7em;
+	font-weight: 400;
+	color:  #585859;
+	margin: 0px;
+
+}
+.Online-courses .card .card-body .info img{
+	width: 16px;
+}
+.text-right{
+	text-align: right;
+}
+.testimonials{
+	width: 100%;
+	padding: 80px 0px;
+}
+.testimonials h1{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin: 0px 0px 80px;
+}
+.testimonials .client{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+.testimonials p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color:#000;
+	margin: 10px 0px 0px;
+}
+.footer{
+	width: 100%;
+	padding: 80px 0px 20px;
+	background: #000;
+}
+.footer p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #fff;
+
+}
+.footer .widget{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.footer .widget li{
+	list-style: none;
+	display: block;
+}
+.footer .widget li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.7em;
+	color: #fff;
+	margin: 0px 0px 5px;
+	display: block;
+	
+}
+.footer .widget .active{
+	font-weight: 700;
+}
+.footer .copyrights{
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.7em;
+	color: #CDCDCD;
+	margin: 80px 0px 0px;
+	text-align: center;
+}
+.footer .copyrights a{
+	text-decoration: none;
+	color: #CDCDCD;
+	
+}

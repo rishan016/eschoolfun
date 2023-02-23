@@ -1,0 +1,148 @@
+/*CSS Media Query*/
+@media  (min-width: 279px) and (max-width: 319px){
+/* css start */
+.main-menu .navbar-brand img{
+    width: 150px;
+    height: 67px;
+}
+.banner h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+}
+.banner h1 span{
+    color:#21B573;
+}
+.banner p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.banner .btn-success{
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 500;
+	padding: 10px 20px;
+  
+}
+.banner .btn-success:hover{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+	
+}
+.inner-feature{
+    margin: 5px auto;
+}
+.Online-courses h1 {
+    text-align: center;
+    font-size: 24px;
+}
+.Online-courses .card {
+    padding: 20px;
+    margin: 5px;
+ }
+ .Online-courses .card .card-body .info {
+    font-size: 10px;
+    line-height: 1.2em;
+    font-weight: 600;
+ }
+ .Online-courses .card .card-body .btn-success {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* css End */
+}
+@media  (min-width: 320px) and (max-width: 480px){
+/* css start */
+.banner h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000;
+}
+.banner h1 span{
+    color:#21B573;
+}
+.banner p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.banner .btn-success{
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 500;
+	padding: 10px 20px;
+  
+}
+.banner .btn-success:hover{
+	color: #21B573;;
+	background: transparent;
+	border: 1px solid #21B573;
+	
+}
+
+.inner-feature{
+    margin: 10px auto;
+}
+
+.Online-courses .card {
+    padding: 20px;
+    margin: 10px;
+ }
+ .Online-courses .card .card-body .info {
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: 600;
+ }
+ .Online-courses .card .card-body .btn-success {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/* css End */    
+
+}
+
+@media  (min-width: 481px) and (max-width: 767px){
+/* css start */
+.inner-feature{
+    margin: 10px auto;
+}
+.Online-courses .card {
+    padding: 20px;
+    margin: 10px;
+ }
+ .Online-courses .card .card-body .info {
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 600;
+ }
+
+/* css End */ 
+}
+@media  (min-width: 768px) and (max-width: 1024px){
+ /* css start */
+ .inner-feature{
+    margin: 10px auto;
+}
+ .Online-courses .card {
+    padding: 20px;
+    margin: 10px;
+ }
+ .Online-courses .card .card-body .info {
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 600;
+ }
+
+
+
+
+
+/* css End */   
+}
